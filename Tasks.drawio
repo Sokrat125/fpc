@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T00:29:18.156Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="KLlp7fmaCwENgHYm6zz7" version="22.1.21" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2024-01-29T00:31:12.782Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="fKxMumi8Nzmu9pAbmA30" version="22.1.21" type="github" pages="12">
   <diagram id="UqQXxG8FqGiue-bzhQbc" name="Catalog_1">
     <mxGraphModel dx="2609" dy="886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -952,7 +952,7 @@
         <mxCell id="m8OsgLxoGWgVVdJc9it--13" value="Структура Каталога (Автомобили и группы)" style="text;strokeColor=#666666;fillColor=#f5f5f5;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;rounded=0;glass=0;fontColor=#333333;" parent="m8OsgLxoGWgVVdJc9it--1" vertex="1">
           <mxGeometry x="40" y="10" width="801" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="nuXzCe4xqfnIZ5ZzvzgF-3" value="TVehicles  (TObject)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;rowLines=1;swimlaneLine=1;" vertex="1" parent="m8OsgLxoGWgVVdJc9it--1">
+        <mxCell id="nuXzCe4xqfnIZ5ZzvzgF-3" value="TVehicles  (TObject)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;rowLines=1;swimlaneLine=1;gradientColor=#97d077;align=left;spacingLeft=10;" vertex="1" parent="m8OsgLxoGWgVVdJc9it--1">
           <mxGeometry x="225" y="69.5" width="545" height="150.5" as="geometry" />
         </mxCell>
         <mxCell id="nuXzCe4xqfnIZ5ZzvzgF-4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nuXzCe4xqfnIZ5ZzvzgF-3">
@@ -1063,7 +1063,7 @@
             <mxRectangle width="310" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nuXzCe4xqfnIZ5ZzvzgF-28" value="TVehicleData  (Record)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="m8OsgLxoGWgVVdJc9it--1">
+        <mxCell id="nuXzCe4xqfnIZ5ZzvzgF-28" value="TVehicleData  (Record)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=10;" vertex="1" parent="m8OsgLxoGWgVVdJc9it--1">
           <mxGeometry x="225" y="350" width="545" height="150.5" as="geometry" />
         </mxCell>
         <mxCell id="nuXzCe4xqfnIZ5ZzvzgF-29" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nuXzCe4xqfnIZ5ZzvzgF-28">
@@ -1174,7 +1174,7 @@
             <mxRectangle width="310" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nuXzCe4xqfnIZ5ZzvzgF-56" value="TCarGroups  (Record)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;fontSize=15;enumerate=0;comic=0;treeMoving=0;resizeWidth=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="m8OsgLxoGWgVVdJc9it--1">
+        <mxCell id="nuXzCe4xqfnIZ5ZzvzgF-56" value="TCarGroups  (Record)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;fontSize=15;enumerate=0;comic=0;treeMoving=0;resizeWidth=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;spacingLeft=10;" vertex="1" parent="m8OsgLxoGWgVVdJc9it--1">
           <mxGeometry x="225" y="520" width="545" height="70.5" as="geometry" />
         </mxCell>
         <mxCell id="nuXzCe4xqfnIZ5ZzvzgF-57" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nuXzCe4xqfnIZ5ZzvzgF-56">
@@ -1213,7 +1213,7 @@
             <mxRectangle width="310" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nuXzCe4xqfnIZ5ZzvzgF-83" value="TVehicleGroup  (Record)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;fontSize=15;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="m8OsgLxoGWgVVdJc9it--1">
+        <mxCell id="nuXzCe4xqfnIZ5ZzvzgF-83" value="TVehicleGroup  (Record)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;fontSize=15;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=10;" vertex="1" parent="m8OsgLxoGWgVVdJc9it--1">
           <mxGeometry x="225" y="240" width="545" height="90.5" as="geometry" />
         </mxCell>
         <mxCell id="nuXzCe4xqfnIZ5ZzvzgF-84" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nuXzCe4xqfnIZ5ZzvzgF-83">
@@ -1296,7 +1296,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nuXzCe4xqfnIZ5ZzvzgF-108" value="TCatGroups  (TObject)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;fontSize=15;enumerate=0;comic=0;treeMoving=0;resizeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="m8OsgLxoGWgVVdJc9it--1">
+        <mxCell id="nuXzCe4xqfnIZ5ZzvzgF-108" value="TCatGroups  (TObject)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;fontSize=15;enumerate=0;comic=0;treeMoving=0;resizeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;align=left;spacingLeft=10;" vertex="1" parent="m8OsgLxoGWgVVdJc9it--1">
           <mxGeometry x="225" y="620" width="545" height="110.5" as="geometry" />
         </mxCell>
         <mxCell id="nuXzCe4xqfnIZ5ZzvzgF-109" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nuXzCe4xqfnIZ5ZzvzgF-108">
@@ -1371,7 +1371,7 @@
             <mxRectangle width="310" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nuXzCe4xqfnIZ5ZzvzgF-117" value="TGroupNode  (Record)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;fontSize=15;enumerate=0;comic=0;treeMoving=0;resizeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="m8OsgLxoGWgVVdJc9it--1">
+        <mxCell id="nuXzCe4xqfnIZ5ZzvzgF-117" value="TGroupNode  (Record)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;fontSize=15;enumerate=0;comic=0;treeMoving=0;resizeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=10;" vertex="1" parent="m8OsgLxoGWgVVdJc9it--1">
           <mxGeometry x="225" y="750" width="545" height="170.5" as="geometry" />
         </mxCell>
         <mxCell id="nuXzCe4xqfnIZ5ZzvzgF-118" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nuXzCe4xqfnIZ5ZzvzgF-117">
