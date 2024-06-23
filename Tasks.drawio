@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T11:56:39.463Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="CYx62oGsMSS73lGFdTUi" version="24.6.0" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2024-06-23T18:54:53.904Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="MkJWx0WkWrcha6qcLawV" version="24.6.0" type="github" pages="12">
   <diagram id="UqQXxG8FqGiue-bzhQbc" name="Catalog_1">
     <mxGraphModel dx="2445" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
         <mxCell id="sVxxogvHHtTQC7xNTbK5-23" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sVxxogvHHtTQC7xNTbK5-10" vertex="1">
           <mxGeometry y="60" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sVxxogvHHtTQC7xNTbK5-24" value="car_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#b85450;overflow=hidden;fillColor=#f8cecc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=1" parent="sVxxogvHHtTQC7xNTbK5-23" vertex="1">
+        <mxCell id="sVxxogvHHtTQC7xNTbK5-24" value="*car_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#b85450;overflow=hidden;fillColor=#f8cecc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=1" parent="sVxxogvHHtTQC7xNTbK5-23" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -36,7 +36,7 @@
             <mxRectangle width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sVxxogvHHtTQC7xNTbK5-110" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;SELECT&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; cat_main.*,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; cat_basa.kod2,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; cat_basa.firma,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; cat_basa.analog,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; sklad.kol1,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; sklad.kol2&lt;/div&gt;&lt;div style=&quot;&quot;&gt;FROM ((cat_main&lt;/div&gt;&lt;div style=&quot;&quot;&gt;INNER JOIN cat_cat ON cat_main.catid = cat_cat.catid)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;INNER JOIN cat_basa ON cat_main.zx = cat_basa.zx)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;INNER JOIN sklad ON cat_main.zx = sklad.zx&lt;/div&gt;&lt;div style=&quot;&quot;&gt;WHERE cat_main.group LIKE &#39;%8%&#39; AND cat_cat.carid = 260&lt;/div&gt;&lt;div style=&quot;&quot;&gt;ORDER BY cat_main.name1;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;spacingLeft=14;align=left;" parent="1" vertex="1">
+        <mxCell id="sVxxogvHHtTQC7xNTbK5-110" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;SELECT&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; cat_main.*,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; cat_basa.nomer,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; cat_basa.producer,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; cat_basa.analog,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; sklad.Kol1,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; sklad.Kol2&lt;/div&gt;&lt;div&gt;FROM&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; ((cat_main&amp;nbsp;&lt;/div&gt;&lt;div&gt;INNER JOIN cat_cars ON cat_main.cat_id = cat_cars.cat_id)&amp;nbsp;&lt;/div&gt;&lt;div&gt;INNER JOIN cat_basa ON cat_main.zx = cat_basa.zx)&amp;nbsp;&lt;/div&gt;&lt;div&gt;LEFT JOIN sklad ON cat_main.zx = sklad.zx&lt;/div&gt;&lt;div&gt;WHERE (((cat_main.group_id) Like &#39;*,253,*&#39;) AND ((cat_cars.car_id)=120))&lt;/div&gt;&lt;div&gt;ORDER BY cat_main.name1;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;spacingLeft=14;align=left;" parent="1" vertex="1">
           <mxGeometry x="-910" y="490" width="540" height="320" as="geometry" />
         </mxCell>
         <mxCell id="sVxxogvHHtTQC7xNTbK5-218" value="SKLAD" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;gradientColor=none;" parent="1" vertex="1">
@@ -899,7 +899,7 @@
         <mxCell id="hq4DYp1mpstQBTf_gYsx-3" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hq4DYp1mpstQBTf_gYsx-2" vertex="1">
           <mxGeometry y="59" width="190" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="hq4DYp1mpstQBTf_gYsx-4" value="car_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#b85450;overflow=hidden;fillColor=#f8cecc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=1" parent="hq4DYp1mpstQBTf_gYsx-3" vertex="1">
+        <mxCell id="hq4DYp1mpstQBTf_gYsx-4" value="*car_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=1;gradientColor=none;fillStyle=solid;" parent="hq4DYp1mpstQBTf_gYsx-3" vertex="1">
           <mxGeometry width="80" height="29" as="geometry">
             <mxRectangle width="80" height="29" as="alternateBounds" />
           </mxGeometry>
